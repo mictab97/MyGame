@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 393290650}
   - component: {fileID: 393290654}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Home Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,8 +356,8 @@ RectTransform:
   - {fileID: 2064355453}
   - {fileID: 1260882910}
   - {fileID: 1681629773}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 453609441}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -454,7 +454,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 26, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 393290653}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

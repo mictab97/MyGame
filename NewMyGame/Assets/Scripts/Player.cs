@@ -24,4 +24,5 @@ public class Player : MonoBehaviour
         //move the player left and right
         myTransform.Translate(Vector3.right * playerSpeed * Input.GetAxis("Horizontal") * Time.deltaTime);
     }
+    
 }
